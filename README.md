@@ -1,4 +1,4 @@
-# Proyecto ReadTextFile
+# Proyecto ReaderTextFile
 1. Tipo de proyecto: Web (solo Frontend)
 2. Utiliza: 
 - html5
