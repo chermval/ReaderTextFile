@@ -1,0 +1,23 @@
+<h3>LECTOR ARCHIVOS TXT</h3>
+
+<form>
+    <fieldset>
+        <legend>CARGA TU ARCHIVO</legend>
+
+        <div>
+            <label for="archivoTxt">Selecciona tu archivo TXT:</label>
+            <input type="file" id="archivoTxt" name="archivoTxt" 
+            onchange="getContentFiles(this.files)"/>
+        </div>
+    </fieldset>
+</form>
+
+
+<fieldset id="contentDisplay"  style="display:none">
+    <legend>CONTENIDO</legend>
+
+    <pre id="fileDisplayContext"></pre>
+</fieldset>
+
+
+<script src="reader.js"></script>
